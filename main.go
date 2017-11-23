@@ -106,7 +106,7 @@ func Seq(start float64, step float64, end float64) valstream {
 	go func() {
 		defer close(res)
 		val := start
-		for (end + step - val) > 0.001 { // Same as val <= end, but take care of propagating float errors
+		for (end + step - val) > 0.0001 { // Same as val <= end, but take care of propagating float errors
 			res <- val
 			val = val + step
 		}
