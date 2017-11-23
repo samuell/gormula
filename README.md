@@ -65,4 +65,4 @@ for monthPay := range monthlyPaymentUSD {
 ```
 
 - See the main.go file, for more details.
-- [Try running this code on the Golang playground](https://play.golang.org/p/zPzO4SIEy8).
+- [Try running this code on the Golang playground](https://play.golang.org/p/pc1gXuSM4y).
