@@ -37,7 +37,8 @@ months := 24.0
 monthlyPaymentUSD := Mul(
     Div(
         Mul(
-            Div(Val(rate), Val(1200.0)),
+            Div(Val(rate),
+            Val(1200.0)),
             Exp(
                 Add(
                     Val(1.0),
@@ -65,4 +66,4 @@ for monthPay := range monthlyPaymentUSD {
 ```
 
 - See the main.go file, for more details.
-- [Try running this code on the Golang playground](https://play.golang.org/p/pc1gXuSM4y).
+- [Try running this code on the Golang playground](https://play.golang.org/p/C3OovxjcMU).

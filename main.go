@@ -24,7 +24,8 @@ func main() {
 	monthlyPaymentUSD := Mul(
 		Div(
 			Mul(
-				Div(Val(rate), Val(1200.0)),
+				Div(Val(rate),
+					Val(1200.0)),
 				Exp(
 					Add(
 						Val(1.0),
