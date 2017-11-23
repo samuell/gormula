@@ -8,6 +8,14 @@ So, in the code, the following formula borrowed from
 
 ![](loan_payment_formula.gif)
 
+... with the following description:
+
+> This is arguably the most important equation of the bunch. If you borrow an
+> amount L dollars and pay it back over N months at an annual interest rate of
+> p percent your monthly payment will be m dollars.
+
+([source](http://www.math.utah.edu/~pa/math/equations/equations.html))
+
 ... is represented and used like this, in Go code:
 
 ```go
